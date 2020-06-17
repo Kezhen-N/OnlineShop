@@ -1,0 +1,148 @@
+/*********************************    
+BIG SCREEN - LANDING PAGE
+*********************************/
+
+
+/****** GENERAL STYLES *******/
+
+
+body {
+    padding:50px 120px 0 120px
+}
+
+
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+
+
+.address h5 {
+    font-size:17px ;
+}
+
+.address address {
+    font-size: 15px;
+}
+
+#menu a li {
+    font-size: 18px;
+}
+
+select {
+    font-size: 16px;
+}
+
+.section-text h1 {
+    font-size: 32px;
+}
+
+.section-text p {
+    font-size: 18px;
+}
+
+.section-text .price {
+    font-size: 24px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.footer-links a {
+    font-size: 17px;
+}
+
+
+
+/****** HEADER *******/
+
+
+
+.menu_product::before {
+    top:2rem;
+    right: 7rem;
+    width: 51px;
+}
+
+
+
+/****** Product LIst Section *******/
+
+
+
+.select {
+    margin-bottom: 3rem;
+}
+
+.select::after {
+    right: -2em;
+}
+
+.product-list li {
+    margin-bottom: 2rem;
+}
+
+
+
+/****** FOOTER *******/
+
+
+
+footer {
+    margin: 0 -120px;
+}
+
+.footer_container::before {
+    top:10rem;
+}
+
+
+
+/****** IMAGE SIZES *******/
+
+
+
+.header-logo {
+    width: 70px;
+    height: 45px;
+}
+
+.footer-logo {
+    width: 87px;
+    height: 87px;
+}
+
+ 
+.lampdark {
+    width: 181px;
+    height: 179px;
+}
+
+.loudspeaker {
+    width: 134px;
+    height: 134px;
+}
+
+.earphonesmall {
+    width: 234px;
+    height: 234px;
+}
+
+.stereo {
+    width: 200px;
+    height: 200px;
+}
+
+.loudspeakersmart {
+    width: 178px;
+    height: 178px;
+}
+
+.tv {
+    width: 206px;
+    height: 205px;
+}
+
+
+
+

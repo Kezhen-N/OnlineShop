@@ -1,0 +1,183 @@
+/*********************************    
+TABLET - LAPTOP - LANDING PAGE
+*********************************/
+
+
+/****** GENERAL STYLES *******/
+
+body {
+    padding:24px 100px 0 100px;
+}
+
+
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+
+
+h1 {
+    font-size: 20px;
+}
+
+.p1 {
+    font-size: 38px;
+}
+
+.p2 {
+    font-size: 16px;
+}
+
+.article_a {
+    font-size: 12px;
+}
+
+
+
+/****** ARTICLE *******/
+
+
+
+article {
+    margin-bottom: 2rem;
+}
+
+.article_image {
+    flex: 2;
+    margin: 0;
+}
+
+article {
+    flex-direction: row;
+}
+
+.container {
+    margin-left: 1rem;
+    flex: 3;
+    padding: 5px 0;
+}
+
+h1 {
+    max-width: 344px;
+    margin-bottom: 0;
+}
+
+.p3 {
+    align-self: auto;
+}
+
+.buttons {
+    justify-content: flex-start;
+}
+
+.article_a {
+    padding: 16px 53px; 
+    margin-right: -0.5em;
+}
+
+.p1 {
+    margin-bottom: 0;
+}
+
+.p2 {
+    max-width: 454px;
+}
+
+
+
+/****** FOOTER *******/
+
+
+
+footer {
+    margin: 0 -100px;
+    background-color: #F2F2F2;
+}
+
+
+.footer_container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px;
+    position: relative;
+}
+
+.footer_container::before {
+    content: '';
+    position: absolute;
+    top:9rem;
+    left:0;
+    right: 0;
+    display: block;
+    max-width: 100%;
+    height:2px;
+    background: #A2A2A2
+}
+
+.footer-links {
+    display: block;
+    width: 30%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+
+.about {
+    margin-bottom: 0;
+    width: 40%;
+}
+
+.about::after {
+    display: none;
+}
+
+.contact {
+    flex-direction: column;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.address {
+    margin-bottom: 4em;
+}
+
+.social-media ul li {
+    padding: 0 0.5em; 
+}
+
+.margin-left {
+    margin-left: -50%
+}
+
+.footer-links a:hover {
+    color: #23b499;
+    transition: color 0.3s ease;
+}
+
+
+/****** IMAGE SIZES *******/
+
+
+.header-logo {
+    width:48px;
+    height: 34px;
+}
+
+.footer-logo {
+    width: 44px;
+    height: 44px;
+}
+
+.article_image {
+    width: 362px;
+    height: 362px;
+}
+
+.button-cart img {
+    width: 25px;
+    height: 23px;
+ }

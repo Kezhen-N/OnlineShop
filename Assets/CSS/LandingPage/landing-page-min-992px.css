@@ -1,0 +1,336 @@
+/*********************************    
+TABLET - LAPTOP - LANDING PAGE
+*********************************/
+
+
+/****** GENERAL STYLES *******/
+
+body {
+    padding:21px 100px 0 100px
+}
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+.article-text h1 {
+    font-size: 48px;
+}
+
+.article-text p {
+    font-size: 20px;
+}
+
+.article-text button {
+    font-size: 12px;
+}
+
+.footer-links a{
+    font-size: 12px;
+    font-family: helvetica-medium;
+}
+
+#menu li {
+    font-size: 15px;
+}
+
+.product-list li h2 {
+    font-size: 15px;
+}
+
+.product-list-popular h3 {
+    font-size: 18px;
+}
+
+.product-list-popular h4 {
+    font-size: 15px;
+}
+
+.product-list-popular p {
+    font-size: 11px;
+}
+
+.product-list-popular a {
+    font-size: 12px;
+}
+
+.why-us_container h4 {
+    font-size: 15px;
+}
+
+.why-us_container span {
+    font-size: 20px;
+}
+
+.address h5 {
+    font-size:13px ;
+}
+
+.address address {
+    font-size: 11px;
+}
+
+#menuToggle a
+{
+  color: #232323; 
+}
+
+.footer-links a{
+    color: #4D4D4D;
+}
+
+
+/****** HEADER *******/
+
+
+header {
+    margin-bottom: 5rem;
+}
+
+#menuToggle span {
+    display: none
+}
+
+#menuToggle input {
+    display: none;
+}
+
+#menuToggle {
+    all:unset
+}
+
+#menu {
+    all: unset;
+    display: flex;
+}
+
+#menu li
+{
+  padding: 0 10px;
+}
+
+#menuToggle a
+{
+  text-decoration: none; 
+  transition: color 0.3s ease;
+}
+
+.menu_product {
+    position: relative;
+}
+
+.menu_product::before {
+    position: absolute;
+    content: '';
+    width: 26px;
+    height: 1px;
+    background-color: #4D4D4D;
+    top:1.5rem;
+    display: block;
+    right: 4.5rem 
+}
+
+.header-logo {
+    margin-left: -48px;
+}
+
+
+/****** ARTICLE*******/
+
+
+article {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.article_image {
+    order: 2;
+}
+
+.article-text {
+    order: 1;
+}
+
+.article-text a {
+    align-self: flex-start 
+}
+
+.article-text {
+    align-self: center;
+    width: 50%;
+}
+
+
+/****** PRODUCT LIST *******/
+
+
+.product-list ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/****** PRODUCT-LIST POPULAR *******/
+
+.product-list-popular ul {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+
+.product-list-popular ul li {
+    width: 30%;
+}
+
+
+/****** WHY US *******/
+
+
+.why-us ul {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/****** FOOTER *******/
+
+
+footer {
+    margin: 0 -100px;
+    background-color: #F2F2F2;
+}
+
+.footer-links {
+    display: block;
+    width: 30%;
+}
+
+.footer_container {
+    flex-direction: row;
+    margin: 0 100px;
+}
+
+.footer-links a{
+    text-decoration: none;
+}
+
+.about {
+    margin-bottom: 0;
+    width: 40%;
+}
+
+.about::after {
+    display: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.address {
+    margin-bottom: 4em;
+}
+
+.social-media ul li {
+    padding: 0 0.5em; 
+}
+
+.footer_container  {
+    position: relative;
+    justify-content: space-between;
+}
+
+.footer_container::before {
+    content: '';
+    position: absolute;
+    top:9rem;
+    left:0;
+    right: 0;
+    display: block;
+    max-width: 100%;
+    height:2px;
+    background: #A2A2A2   
+}
+
+.footer-links a:hover {
+    color: #23b499;
+    transition: color 0.3s ease;
+}
+
+
+/****** IMAGE SIZES *******/
+
+    .header-logo {
+        width:48px;
+        height: 34px;
+    }
+
+    .footer-logo {
+        width: 44px;
+        height: 44px;
+    }
+
+    .article_image {
+       width:50%;
+       height: 430px;
+    }
+
+    .why-us_image {
+        width:245px;
+        height: 148px;
+     }
+
+     .monitor {
+        width: 117px;
+        height: 116px;
+    }
+    
+    .lamplight {
+        width: 137px;
+        height: 173px;
+    }
+    
+    .earphonebig {
+        width: 99px;
+        height: 99px;
+    }
+    
+    
+    .lampdark {
+        width: 183px;
+        height: 183px;
+    }
+    
+    .loudspeaker {
+        width:133px;
+        height: 133px;
+    }
+    
+    .earphonesmall {
+        width: 158px;
+        height: 158px;
+    }
+    
+    .lampround {
+        width: 184px;
+        height: 184px;
+    }
+    
+    .loudspeakersmart {
+        width: 137px;
+        height: 136px;
+    }
+    
+    
+    .tv {
+        width: 159px;
+        height: 158px;
+    }
+    

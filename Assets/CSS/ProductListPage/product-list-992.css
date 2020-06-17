@@ -1,0 +1,230 @@
+/****** GENERAL STYLES *******/
+
+
+body {
+    padding:21px 100px 0 100px
+}
+
+
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+
+
+.address h5 {
+    font-size:13px ;
+}
+
+#menu a li {
+    font-size: 12px;
+    font-family: regular;
+}
+
+.section-text h1 {
+    font-size: 18px;
+}
+
+.section-text p {
+    font-size: 12px;
+}
+
+.section-text .price {
+    font-size: 15px;
+}
+
+.footer-links a {
+    font-size: 12px;
+}
+
+
+
+/****** HEADER *******/
+
+
+
+header {
+    margin-bottom: 5rem;
+}
+
+#menuToggle span {
+    display: none
+}
+
+#menuToggle input {
+    display: none;
+}
+
+#menuToggle {
+    all:unset
+}
+
+#menu {
+    all: unset;
+    display: flex;
+}
+
+#menu li
+{
+  padding: 0 10px;
+}
+
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323; 
+  transition: color 0.3s ease;
+}
+
+
+.menu_product {
+    position: relative;
+}
+
+.menu_product::before {
+    position: absolute;
+    content: '';
+    width: 26px;
+    height: 1px;
+    background-color: #4D4D4D;
+    top:1.5rem;
+    display: block;
+    right: 5.5rem 
+}
+
+.header-logo {
+    margin-left: -48px;
+}
+
+
+
+/****** Product LIst Section *******/
+
+
+
+.select::after {
+    right: 2em;
+}
+
+
+
+/****** FOOTER *******/
+
+
+
+footer {
+    margin: 0 -100px;
+    background-color: #F2F2F2;
+}
+
+
+.footer_container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 100px;
+    position: relative;
+}
+
+.footer_container::before {
+    content: '';
+    position: absolute;
+    top:9rem;
+    left:0;
+    right: 0;
+    display: block;
+    max-width: 100%;
+    height:2px;
+    background: #A2A2A2
+}
+
+.footer-links {
+    display: block;
+    width: 30%;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+
+.about {
+    margin-bottom: 0;
+    width: 40%;
+}
+
+.about::after {
+    display: none;
+}
+
+.contact {
+    flex-direction: column;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.address {
+    margin-bottom: 4em;
+}
+
+.social-media ul li {
+    padding: 0 0.5em; 
+}
+
+.margin-left {
+    margin-left: -50%
+}
+
+.footer-links a:hover {
+    color: #23b499;
+    transition: color 0.3s ease;
+}
+
+
+
+/****** IMAGE SIZES *******/
+
+
+
+    .header-logo {
+        width: 48px;
+        height: 34px;
+    }
+
+    .footer-logo {
+        width: 44px;
+        height: 44px;
+    }
+     
+    .lampdark {
+        width: 94px;
+        height: 93px;
+    }
+
+    .loudspeaker {
+        width: 70px;
+        height: 70px;
+    }
+
+    .earphonesmall {
+        width: 100px;
+        height: 100px;
+    }
+
+    .stereo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .loudspeakersmart {
+        width: 90px;
+        height: 90px;
+    }
+
+    .tv {
+        width: 96px;
+        height: 95px;
+    }
+

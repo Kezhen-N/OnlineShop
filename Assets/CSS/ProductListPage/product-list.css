@@ -1,0 +1,347 @@
+/*******************************   
+
+MOBILE - LANDING PAGE 
+
+    Table of Contents:
+        1. Reset Styles;
+        2. General Styles;
+        3. Typography And Font Colors;
+        4. Content
+            1. Header;
+            2. Product List Section;
+            3. Footer.
+        5. Image Sizes.
+
+    !!! Please consider that main styles are divided based on content styles. 
+
+        
+*********************************/
+
+/****** RESET STYLES *******/
+
+html {
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ box-sizing: inherit;
+ margin: 0;
+ padding: 0;
+}
+
+
+/****** GENERAL STYLES *******/
+
+
+body {
+ padding: 40px 24px 0 24px;
+ overflow-x: hidden;
+}
+
+
+li {
+    list-style: none;
+}
+
+.button-fav, .button-cart {
+    cursor: pointer;
+}
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url(../../fonts/bold.ttf);  
+}
+ 
+@font-face {
+    font-family: 'helvetica-regular';
+    src: url(../../fonts/roman.ttf); 
+}
+
+@font-face {
+    font-family: 'helvetica-medium';
+    src: url(../../fonts/light.ttf); 
+
+}
+
+select {
+    font-size: 12px;
+    font-family: helvetica-medium;
+}
+
+
+.section-text h1 {
+    font-size: 15px;
+    font-family: helvetica-bold;
+}
+
+
+.section-text p {
+    font-size: 11px;
+    font-family: helvetica-regular;
+}
+
+.section-text .price {
+    font-size: 13px;
+    font-family: helvetica-bold;
+}
+
+
+.about p {
+    font-size: 11px;
+    font-family: helvetica-medium;
+}
+
+.address h5 {
+    font-size:14px;
+    font-family: helvetica-bold;
+}
+
+.address address {
+    font-size: 12px;
+    font-style: normal;
+    font-family: helvetica-medium
+}
+
+
+
+/****** HEADER *******/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+/****** Product LIst Section *******/
+
+
+select {
+    max-width: 12em;
+    height: 3em;
+    line-height: 3;
+    background: white;
+    box-shadow:none;
+    border:0!important;
+    border-radius: 0.25em;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+ }
+
+ select::-ms-expand {
+    display: none; /* Hide the default arrow in Internet Explorer 10 and Internet Explorer 11 */
+}
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    }
+}
+
+.select {
+    position: relative;
+    max-width: 12em;
+    height: 3em;
+    line-height: 3;
+    border-radius: .25em;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 1.5em;
+    padding: 0 1em;
+    border-radius: 0.25em;
+    background: white;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+
+ .select:hover::after {
+    color: #23b499;
+ }
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    align-self: flex-start;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    flex: 2;
+}
+
+.product-list_image {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-list-popular div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 1.5em 0;
+}
+
+.button-fav, .button-cart {
+    background-color: white;
+    border-width: 0;
+}
+
+.product-list li {
+    margin-bottom: 1rem;
+}
+
+.product-list {
+    margin-bottom: 2rem;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-text .price {
+    align-self: flex-end;
+    margin-right: 1em;
+}
+
+
+/****** FOOTER *******/
+
+
+
+.footer_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links {
+    display: none;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    bottom:-1.5em;
+    left:0;
+    right: 0;
+    content: '';
+    display: block;
+    max-width: 100%;
+    height:2px;
+    background: #dddddd;
+    
+}
+
+.about p {
+    margin-left: 0.5rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.social-media ul li {
+    margin-bottom: 0.7rem;
+}
+
+
+
+
+/****** IMAGE SIZES *******/
+
+
+.header-logo{
+    width: 71px; 
+    height: 50px; 
+ }
+
+ .footer-logo {
+    width:70px;
+    height: 65px;
+ }
+
+.button-fav img {
+    width: 20px;
+    height: 18px;
+}
+
+.button-cart img {
+    width: 20px;
+    height: 18px;
+}
+
+
+.lampdark {
+    width: 102px;
+    height: 102px;
+}
+
+.loudspeaker {
+    width: 63px;
+    height: 63px;
+}
+
+.earphonesmall {
+    width: 102px;
+    height: 102px;
+}
+
+.stereo {
+    width: 71px;
+    height: 71px;
+}
+
+.loudspeakersmart {
+    width: 82px;
+    height: 82px;
+}
+
+.tv {
+    width: 80px;
+    height: 79px;
+}

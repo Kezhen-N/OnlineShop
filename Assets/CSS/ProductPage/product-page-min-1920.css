@@ -1,0 +1,100 @@
+/*********************************    
+BIG SCREEN - LANDING PAGE
+*********************************/
+
+
+/****** GENERAL STYLES *******/
+
+
+body {
+    padding:50px 120px 0 120px
+}
+
+
+
+/****** TYPOGRAPHY AND FONT COLORS *******/
+
+
+
+h1 {
+    font-size: 32px;
+}
+
+.p1 {
+    font-size: 60px;
+}
+
+.p2 {
+    font-size: 18px;
+}
+
+.p3 {
+    font-size: 18px;
+}
+
+.article_a {
+    font-size: 18px;
+}
+
+
+
+/****** ARTICLE *******/
+
+
+h1 {
+    max-width: 700px;
+    margin-bottom: 1em;
+}
+
+.p1 {
+    margin-bottom: 0.5em;
+}
+
+.p2 {
+    margin-bottom: 3em;
+    max-width: 552px;
+}
+
+.article_a {
+    margin-right: 1em;
+}
+
+
+
+/****** FOOTER *******/
+
+
+
+footer {
+    margin: 0 -120px;
+}
+
+.footer_container::before {
+    top:9rem;
+}
+
+
+
+/****** IMAGE SIZES *******/
+
+
+
+.article_image {
+    width: 846px;
+    height: 846px;
+}
+
+.button-cart img {
+    width: 30px;
+    height: 28px;
+ }
+
+ .header-logo {
+    width: 70px;
+    height: 45px;
+}
+
+.footer-logo {
+    width: 87px;
+    height: 87px;
+}
